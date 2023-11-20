@@ -1,0 +1,130 @@
+body {
+/*The background-repeat property sets if/how a background image will be repeated.
+By default, a background-image is repeated both vertically and horizontally. 
+"Round" means the background-image is repeated and squished or stretched to fill the space (no gaps)*/
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: 3px;
+  background-size: cover;
+  background-color: rgba(27, 27, 50, 0.8);
+  background-repeat: round;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.color-tint {
+  background-color: rgba(94, 94, 144, 0.8);
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+h1, p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/*The max-width property defines the maximum width of an element. 
+This means that if the width is calculated dynamically, it will never exceed the max-width value, 
+but it could be any value smaller*/
+
+/*To actually center the content, add margin: auto*/
+.container {
+  width: 675px;
+  height: 100%;
+  max-width: 720px;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: rgba(27, 27, 50, 0.8);
+  border-radius: 0.2rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+  }
+
+.block {
+  display: block;
+}
+
+label {
+  line-height: 2rem;
+}
+
+input {
+  margin-right: 0.5rem;
+  line-height: 1.5rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+  width: 100%;
+}
+
+input[placeholder] {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 0.2rem;
+}
+
+/*select element's line-height, padding, color styles done with in-line styling in html*/
+select {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  color:white;
+  background-color: #37AF65;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+}
+  button:hover {
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
