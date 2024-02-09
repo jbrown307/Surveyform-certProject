@@ -1,23 +1,12 @@
+/* ---------- general ---------- */
 body {
-/*The background-repeat property sets if/how a background image will be repeated.
-By default, a background-image is repeated both vertically and horizontally. 
-"Round" means the background-image is repeated and squished or stretched to fill the space (no gaps)*/
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  background-size: 3px;
-  background-size: cover;
-  background-color: rgba(27, 27, 50, 0.8);
-  background-repeat: round;
-  color: white;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.4;
   margin: 0;
-}
-
-.color-tint {
-  background-color: rgba(94, 94, 144, 0.8);
 }
 
 h1 {
@@ -26,7 +15,7 @@ h1 {
 
 p {
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.rem;
 }
 
 h1, p {
@@ -35,32 +24,8 @@ h1, p {
   text-align: center;
 }
 
-/*The max-width property defines the maximum width of an element. 
-This means that if the width is calculated dynamically, it will never exceed the max-width value, 
-but it could be any value smaller*/
-
-/*To actually center the content, add margin: auto*/
-.container {
-  width: 675px;
-  height: 100%;
-  max-width: 720px;
-  margin: auto;
-  padding: 1.5rem;
-  background-color: rgba(27, 27, 50, 0.8);
-  border-radius: 0.2rem;
-}
-
 fieldset {
   border: none;
-}
-
-.form-group {
-  margin-bottom: 0.5rem;
-  line-height: 2rem;
-  }
-
-.block {
-  display: block;
 }
 
 label {
@@ -77,12 +42,11 @@ input[type="text"], input[type="email"], input[type="number"] {
 }
 
 input[placeholder] {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  padding: 0.2rem;
+  padding: 0.5rem;
 }
 
-/*select element's line-height, padding, color styles done with in-line styling in html*/
 select {
   width: 100%;
 }
@@ -93,16 +57,109 @@ textarea {
 
 button {
   width: 100%;
-  padding: 0.75rem;
-  color:white;
-  background-color: #37AF65;
+  padding: 1rem;
+  color:black;
+  background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
   font-weight: bold;
+  font-size: 1.5rem;
   border: none;
   border-radius: 0.2rem;
 }
+
   button:hover {
     cursor: pointer;
   }
+
+  div {
+    margin-bottom: 1.5rem;
+  }
+
+  .block {
+    display: block;
+  }
+
+/* ---------- main container component ---------- */
+.form-container {
+  border: solid 3px red;
+    
+  width: 675px;
+  height: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border-radius: 0.5rem;
+ }
+
+/* ---------- heading component  ---------- */
+.heading-container {
+  border: solid 3px red;
+
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+
+}
+  #title {
+  border: solid 3px blue;
+
+  }
+
+  #description {
+  border: solid 3px blue;
+  margin-top: 1rem;
+  width: 75ch;
+  }
+
+/* ---------- user info component ---------- */
+.user-info {
+  border: solid 3px blue;
+
+}
+
+/* ---------- user role component ---------- */
+.user-role {
+  border: solid 3px blue;
+
+}
+
+/* ---------- user recommend component ---------- */
+.user-recommend {
+  border: solid 3px blue;
+
+}
+
+/* ---------- user-favorite component ---------- */
+.user-favorite {
+  border: solid 3px blue;
+
+}
+
+/* ---------- user improvement component ---------- */
+.user-improvement {
+  border: solid 3px blue;
+
+}
+
+/* ---------- user comments component ---------- */
+.user-comments {
+  border: solid 3px blue;
+
+}
+
+.submit-button {
+  border: solid 3px blue;
+
+}
+
+
+
+
+
 
 
 
